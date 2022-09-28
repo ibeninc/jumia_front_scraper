@@ -1,22 +1,8 @@
-# Nuxt.Js Moralis
+# Jumia online ecommecer product scraper
 
-Boilerplate project using Nuxtjs + Vuetify + Moralis
+Fetches products based on price range from jumia via web scraping
 
-# Nuxt Add Moralis plugin (plugins/moralis.js)
 
-```js
-import Moralis from 'moralis';
-
-Moralis.initialize("moralis-key");
-Moralis.serverURL = 'moralis-server-url'
-
-export default ({ app }, inject) => {
-
-inject('moralis', Moralis)
-
-}
-
-```
 
 ## Build Setup
 
