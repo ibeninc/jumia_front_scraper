@@ -29,7 +29,6 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     // '~/plugins/notifier.js',
-    // '~/plugins/moralis.js',
     // '~/plugins/lazyloader.js',
     // {src: '~plugins/vue-infinite-loading', ssr: false}
   ],
